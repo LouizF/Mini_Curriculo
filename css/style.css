@@ -45,7 +45,6 @@ html,body{
    border-radius:50%;
    margin:0 auto;
    margin-top: 60px;
-
    background-image: url('../imagens/SemFundo.png');
    background-size: cover;
    background-position:center;
@@ -67,18 +66,15 @@ div.about a:hover{
 	color:orange;
 }
 
-
-
 .conteudo span{color:#b51010;}		
 
 .center{
-	
+
 	position: absolute;
 	width: 80%;
 	left: 20%;
 	background-size: cover;
 	background-position: center;
-
 }	
 
 .center{
@@ -99,7 +95,6 @@ div.about a:hover{
 	text-shadow: 1px 1px black;
 
 }
-
 
 strong{
 
@@ -236,33 +231,6 @@ footer p{
 		font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width:310px) and (max-width:720px){
  	
  	
@@ -270,10 +238,7 @@ footer p{
 
 		width:100%;
 		position: absolute;
-		
-		
 	}
-
 
 	.box{
 
@@ -283,8 +248,7 @@ footer p{
 	}
 
 	.center{
-		
-		
+
 		left: 0;
 		width: 100%;
 		top: 50%;
@@ -335,9 +299,6 @@ footer p{
 	font-size: 20px;
 	display: inline-block;
 
-	
-	
-
 }
 
 
@@ -348,21 +309,14 @@ footer p{
 }
 
 
+.icones a{
 
+	display: inline-block;
+}
 
-	.icones a{
+.icones i{
 
-		display: inline-block;
-
-
+	font-size: 41px;
+	
 	}
-
-	.icones i{
-
-		font-size: 41px;
-	}
-
-
-
-
 }
