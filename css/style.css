@@ -1,0 +1,368 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Saira Extra Condensed", sans-serif;
+}
+
+
+html,body{
+
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+
+::selection{
+
+	background-color: #a11010;
+}
+
+.sidebar{
+
+	width: 20%;
+	height:100%;
+	background:#a11010;
+	position: fixed;
+	height: 100%;
+	
+}
+
+.center2{
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color:white;
+	text-shadow: 1px 2px black;
+}
+
+.box{
+   position: relative;
+   width: 70%;
+   padding-top: 65%;
+   border:8px solid #7d0505;
+   border-radius:50%;
+   margin:0 auto;
+   margin-top: 60px;
+
+   background-image: url('../imagens/SemFundo.png');
+   background-size: cover;
+   background-position:center;
+ 
+}
+
+.about p,a{
+
+	margin-top: 10px;
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	text-shadow: 1px 2px black;
+	text-decoration: none;
+}
+
+div.about a:hover{
+
+	color:orange;
+}
+
+
+
+.conteudo span{color:#b51010;}		
+
+.center{
+	
+	position: absolute;
+	width: 80%;
+	left: 20%;
+	background-size: cover;
+	background-position: center;
+
+}	
+
+.center{
+
+	background-image: url("../imagens/ta.gif");
+	background-position:center;
+	background-size: cover;
+
+}
+
+.conteudo h1{
+
+	padding-top: 5%;
+	padding-left: 2%;
+	color:white;	
+	font-size: 46px;
+	text-align: center;	
+	text-shadow: 1px 1px black;
+
+}
+
+
+strong{
+
+	color:#b51010;
+	text-shadow: 1px 1px black;
+}
+
+.over{
+
+	background-color: rgba(0,0,0,0.5);
+}
+
+.conteudo p{
+
+	font-size:24px;
+	color:white;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 45px;
+	padding: 10px;
+	text-shadow: 1px 1px black;
+}
+
+.conteudo2{
+
+	display: inline-block;
+
+}
+
+.conteudo3 h1{
+
+	padding-top: 5%;
+	padding-left: 2%;
+	color:white;	
+	font-size: 46px;
+	text-align: left;	
+	text-shadow: 1px 2px black;
+
+}
+
+.conteudo3 p{
+
+	font-size:36px;
+	color:white;
+	text-align: left;
+	line-height: 45px;
+	padding: 24px;
+	text-shadow: 1px 1px black;
+}
+
+.conteudo4 h1{
+
+	padding-top: 5%;
+	padding-left: 2%;
+	color:white;	
+	font-size: 46px;
+	text-align: center;	
+	text-shadow: 1px 2px black;
+
+}
+
+.conteudo4 p{
+
+	font-size:24px;
+	color:white;
+	text-align: center;
+	line-height: 45px;
+	padding-top: 3%;
+	text-shadow: 1px 1px black;
+}
+
+.icones{
+
+	width: 30%;
+	text-align: center;
+	display: inline-flex;
+	
+}
+
+.conteudo4 i{
+
+	color:green;
+}
+
+
+.icones i{
+
+	font-size: 50px;
+	margin: 20px;
+	
+}
+
+#github{
+
+	border-radius: 50px;
+	color:black;
+	background-color: white;
+}
+
+#github:hover{
+
+	color: #1c1a1a;
+	background-color:#d6d0d0;
+}
+
+#email{
+  
+  color:#a11010;
+}
+
+#email:hover{
+
+color:#b81212;
+
+}
+
+
+#linkedin{
+
+	color:#0077b7;
+}
+
+#linkedin:hover{
+
+	color:#028fdb;
+}
+
+footer p{
+
+		text-align: center;
+		color:white;
+		font-size: 19px;
+		text-shadow: 1px 2px black;
+		font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:310px) and (max-width:720px){
+ 	
+ 	
+    .sidebar{
+
+		width:100%;
+		position: absolute;
+		
+		
+	}
+
+
+	.box{
+
+		width: 38%;
+		padding-top: 35%;
+
+	}
+
+	.center{
+		
+		
+		left: 0;
+		width: 100%;
+		top: 50%;
+		padding-top:80%;
+		background-position:left;
+		background-size: cover;
+		background-image: url("../imagens/ta.gif");
+
+	}
+
+
+	div.about a:hover{
+
+	color:white;
+	
+	}
+
+	#menu-content1{
+
+		background-color:rgba(0,0,0,0) !important;
+	}
+
+	#linkedin:hover{
+
+		color:#0077b7 !important;
+
+	}
+
+
+	#email:hover{
+
+	 color:#a11010 !important;
+
+	
+	}
+
+	#github:hover{
+
+
+		color:black !important;
+		background-color: white !important;
+	}
+
+	
+ .center2{
+
+	
+	font-size: 20px;
+	display: inline-block;
+
+	
+	
+
+}
+
+
+.about p,a{
+
+	margin-top: 2px !important;
+	font-size: 30px;
+}
+
+
+
+
+	.icones a{
+
+		display: inline-block;
+
+
+	}
+
+	.icones i{
+
+		font-size: 41px;
+	}
+
+
+
+
+}
